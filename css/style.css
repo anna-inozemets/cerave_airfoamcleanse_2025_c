@@ -257,6 +257,9 @@ b, strong {
   justify-content: space-around;
   z-index: 1;
 }
+.slide__product img {
+  transition: all 0.2s linear;
+}
 
 .slide__product--1,
 .slide__product--2,
@@ -319,8 +322,8 @@ b, strong {
 }
 
 .slide__slot.half-active .slide__product img {
-  -webkit-filter: drop-shadow(0 0 2.25em rgba(255, 165, 0, 0.8));
-  filter: drop-shadow(0 0 2.25em rgba(255, 165, 0, 0.8));
+  -webkit-filter: drop-shadow(0 0 2.5em rgba(255, 255, 255, 0.95));
+  filter: drop-shadow(0 0 2.5em rgba(255, 255, 255, 0.95));
 }
 .slide__slot--day .slide__product img {
   -webkit-filter: drop-shadow(0 0 2.25em rgba(214, 157, 15, 0.7));
